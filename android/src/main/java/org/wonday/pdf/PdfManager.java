@@ -95,13 +95,13 @@ public class PdfManager extends SimpleViewManager<PdfView> implements RNPDFPdfVi
     }
 
     @Override
-    public void setShowsHorizontalScrollIndicator(PdfView view, boolean value) {
-        // NOOP on Android
+    public void showsHorizontalScrollIndicator(PdfView view, boolean value) {
+
     }
 
     @Override
-    public void setShowsVerticalScrollIndicator(PdfView view, boolean value) {
-        // NOOP on Android
+    public void showsVerticalScrollIndicator(PdfView view, boolean value) {
+
     }
 
     @ReactProp(name = "spacing")
